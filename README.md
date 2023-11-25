@@ -1,13 +1,13 @@
-# DaisyBlinkProject
+# DaisyFxProject
 
-Basic Blink Project with all required libraries, etc.
+Basic Fx Project with all required libraries, etc. (+Terrarium)
 
 ## Get Started
 
 If cloning this repo from Github, you will want to do so with the submodules with:
 
 ```console
-git clone https://github.com/electro-smith/DaisyBlinkProject --recurse-submodules
+git clone https://github.com/soundg33k/DaisyFxProject --recurse-submodules
 ```
 
 if you've already cloned the repo without this you can fill the submodules by running the following:
@@ -24,18 +24,21 @@ Includes:
 
 * libDaisy - hardware library for Daisy
 * DaisySP - DSP library
-* Blink - Basic example demonstrating a blink
+* Terrarium - Terrarium hardware defines
+* Fx - Passtrough Fx
 
 This also contains the following VS code tasks:
 
 * Build Libraries: builds libDaisy, and DaisySP from scratch. This is only necessary when manually updating, or cloning for the first time.
-* Build: build the blink example
-* Clean: removes compiled Blink code
-* Program DFU: programs the Blink.bin file via USB
+* Build: build the Fx example
+* Clean: removes compiled Fx code
+* Program : programs the Fx.bin file via probe
+* Build and Program : Rebuilds the program and downloads it via probe
+* Program DFU: programs the Fx.bin file via USB
 * Build and Program DFU: Rebuilds the program and downloads it via USB DFU
 
 In addition, the following debug configurations are available:
 
-* Debug Blink: debugs the Blink application
+* Debug Fx: debugs the Fx application
 
 **Note**: debugging an application from VS Code requires an ST-Link or similar probe, as well as the Cortex Debug extension for VS Code.

@@ -1,4 +1,4 @@
-/** Daisy Blink Example
+/** Daisy Fx Example
  *
  *  This example blinks the Daisy Seed's LED
  *  once per second, as explained in the

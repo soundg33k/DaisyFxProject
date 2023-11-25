@@ -4,3 +4,6 @@
 [submodule "libs/DaisySP"]
 	path = libs/DaisySP
 	url = https://github.com/electro-smith/DaisySP
+[submodule "libs/Terrarium"]
+	path = libs/Terrarium
+	url = https://github.com/PedalPCB/Terrarium

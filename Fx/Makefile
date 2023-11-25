@@ -1,5 +1,5 @@
 # Project Name
-TARGET = Blink
+TARGET = Fx
 
 # Configure for debugging
 # common configurations:
