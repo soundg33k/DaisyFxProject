@@ -2,12 +2,12 @@
     "configurations": [
         {
             "name": "Win32",
-            // Edit to match your development environment if necessary
             "compilerPath": "C:/Program Files/DaisyToolchain/bin/arm-none-eabi-gcc.exe",
             "includePath": [
                 "${workspaceFolder}/Fx/**",
                 "${workspaceFolder}/libs/libDaisy/**",
-                "${workspaceFolder}/libs/DaisySP/**"
+                "${workspaceFolder}/libs/DaisySP/**",
+                "${workspaceFolder}/libs/Terrarium/**"
             ],
             "intelliSenseMode": "gcc-x64",
             "cStandard": "c11",
@@ -20,7 +20,6 @@
         },
         {
             "name": "Mac",
-            // Edit to match your development environment if necessary
             "compilerPath": "/usr/bin/arm-none-eabi-gcc",
             "includePath": [
                 "${workspaceFolder}/Fx/**",

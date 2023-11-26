@@ -13,6 +13,7 @@ CPP_SOURCES = main.cpp
 
 LIBDAISY_DIR = ../libs/libDaisy
 DAISYSP_DIR = ../libs/DaisySP
+C_INCLUDES += -I../libs/Terrarium
 
 # (optional) Includes FatFS source files within project.
 #USE_FATFS = 1

@@ -16,7 +16,11 @@
         "cwd": "${workspaceFolder}/Fx"
       },
       "problemMatcher": [],
-      "type": "shell"
+      "type": "shell",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     },
     {
       "label": "Clean",
