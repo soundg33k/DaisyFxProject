@@ -141,8 +141,6 @@ int main()
     hardware.StartAdc();
     hardware.StartAudio(audioCallback);
 
-    bool led1State = false;
-
     while (true)
     {
         testTerrariumHardware();
