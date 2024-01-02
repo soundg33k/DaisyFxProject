@@ -4,13 +4,13 @@
  daisy::DaisyPetal hardware;
  daisy::Led led1, led2;
 
-void audioCallback(daisy::AudioHandle::InputBuffer in, daisy::AudioHandle::OutputBuffer out, size_t sampleCount)
- {
+void audioCallback(daisy::AudioHandle::InterleavingInputBuffer in, daisy::AudioHandle::InterleavingOutputBuffer out, size_t sampleCount)
+{
     // Do a passthrough 
     for(size_t i = 0; i < sampleCount; i += 2)
     {
-        (*out)[i] = (*in)[i];
-        (*out)[i+1] = (*in)[i+1];
+        out[i] = in[i];
+        out[i+1] = in[i+1];
     }
  }
 
